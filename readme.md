@@ -9,7 +9,7 @@ _Another open source art drawing thing_
 0. Get NodeJS and NPM (if you haven't)
 > For Windows, NPM is included in NodeJS installation. [Download NodeJS here](https://nodejs.org/en/)
 
-> For Linux, you'll have to install NPM using your distrubution package manager. For Ubuntu, it's ``sudo apt install npm``
+> For Linux, you'll have to install NPM using your distrubution package manager. For Debian, it's ``sudo apt install npm``
 
 1. Clone this repository: ``git clone https://github.com/nahkd123/Papercanvas``
 2. Install packages: ``npm install``
