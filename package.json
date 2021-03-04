@@ -1,0 +1,20 @@
+{
+  "name": "papercanvas",
+  "version": "0.0.0",
+  "description": "Another open source art drawing thing",
+  "main": "bin/node/index.js",
+  "scripts": {
+    "test": "http-server"
+  },
+  "keywords": [
+    "canvas",
+    "drawing",
+    "2d"
+  ],
+  "author": "nahkd123",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "typescript": "^4.2.2"
+  }
+}

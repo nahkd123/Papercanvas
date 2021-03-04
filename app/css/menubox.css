@@ -1,0 +1,45 @@
+div.menubox {
+    position: absolute;
+}
+
+div.menubox.bottom-left {bottom: 17px; left: 17px;}
+div.menubox.bottom-right {bottom: 17px; right: 17px;}
+div.menubox.bottom-left, div.menubox.bottom-middle, div.menubox.bottom-right {
+    margin-top: 7px;
+}
+
+div.menubox > div {
+    position: relative;
+    padding: 5px 12px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    min-height: 19px;
+    box-shadow: 0 0 5px black;
+    margin-top: 7px;
+}
+
+div.menubox > div.icons {
+    padding: 0;
+    box-shadow: none;
+    height: 29px;
+    background-color: unset;
+}
+div.menubox > div.icons > div {
+    display: inline-block;
+    width: 29px; height: 29px;
+    box-shadow: 0 0 5px black;
+    vertical-align: top;
+    border-radius: 1000px;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+div.menubox.top-right > div.icons > div,
+div.menubox.middle-right > div.icons > div,
+div.menubox.bottom-right > div.icons > div {
+    float: right;
+}
+
+div.menubox > div.icons > div:hover {
+    background-color: #efefef;
+}

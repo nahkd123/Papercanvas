@@ -1,0 +1,32 @@
+@import url("./fonts.css");
+@import url("./panes.css");
+@import url("./images.css");
+@import url("./tools.css");
+@import url("./menubox.css");
+@import url("./components.css");
+
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    user-select: none;
+}
+
+div.layerslisting > div.layerentry {
+    padding: 5px 12px;
+    margin-top: 7px;
+    box-shadow: 0 0 5px black;
+    border-radius: 1000px;
+    background-color: #ffffff;
+}
+div.layerslisting > div.layerentry:hover {
+    background-color: #efefef;
+}
+div.layerslisting > div.layerentry.selected {
+    background-color: #e0e0e0;
+}
+
+div.icons > div.addlayer {
+    background-image: url("../../assets/buttons/layer_add.svg");
+}

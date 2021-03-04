@@ -1,0 +1,52 @@
+div.tools {
+    position: absolute;
+    bottom: 12px; left: 50%;
+    transform: translateX(-50%);
+
+    box-shadow: 0 0 5px black;
+    border-radius: 1000px;
+    /*width: 60%;*/
+    background-color: #ffffff;
+}
+
+div.tools > div.container {
+    position: relative;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    height: 50px;
+}
+
+div.tools > div.container > div {
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    background-size: cover;
+}
+div.tools > div.container > div::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    background-color: #0fb2d2;
+    width: 30px; height: 0px;
+    transition: 0.2s cubic-bezier(0, 0.3, 0.04, 0.99) height;
+}
+
+div.tools > div.container > div:hover {
+    background-color: #e0e0e0;
+}
+
+div.tools > div.container > div.selected::after {
+    height: 4px;
+}
+
+/* Default tools SVG background images */
+div.tools > div.container > div.solid {
+    background-image: url("../../assets/tools/solid.svg");
+}
+div.tools > div.container > div.eraser {
+    background-image: url("../../assets/tools/eraser.svg");
+}
+div.tools > div.container > div.pencil {
+    background-image: url("../../assets/tools/pencil.svg");
+}
