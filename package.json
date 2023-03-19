@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Papercanvas",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "esbuild:build": "esbuild --bundle --platform=browser --global-name=app --asset-names=[name] --loader:.html=file --loader:.svg=file --outdir=www src/index.ts",
+    "esbuild:dev": "esbuild --bundle --platform=browser --global-name=app --asset-names=[name] --loader:.html=file --loader:.svg=file --outdir=www src/index.ts --watch --servedir=www"
   },
   "repository": {
     "type": "git",

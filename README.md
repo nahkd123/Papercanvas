@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/icon.svg" width="256">
+    <img src="src/assets/icon.svg" width="256">
 </p>
 
 # Papercanvas (``v2/master`` branch)
