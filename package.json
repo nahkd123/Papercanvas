@@ -1,0 +1,27 @@
+{
+  "name": "@nahkd123/papercanvas",
+  "version": "1.0.0",
+  "description": "Papercanvas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahkd123/Papercanvas.git"
+  },
+  "keywords": [
+    "html5",
+    "drawing",
+    "art"
+  ],
+  "author": "nahkd123",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nahkd123/Papercanvas/issues"
+  },
+  "homepage": "https://github.com/nahkd123/Papercanvas#readme",
+  "devDependencies": {
+    "esbuild": "^0.17.12",
+    "typescript": "^5.0.2"
+  }
+}
