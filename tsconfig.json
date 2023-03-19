@@ -3,6 +3,8 @@
         "module": "ESNext",
         "target": "ESNext",
         "noEmit": true,
+        "jsx": "react",
+        "jsxFactory": "TSX.createElement"
     },
     "include": [
         "src"

@@ -1,0 +1,38 @@
+.papercanvas-canvas > .brushesbox > div > .brush.pencil::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    border-left: 20px solid #e0cac1;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    top: 5px; right: 5px;
+}
+.papercanvas-canvas > .brushesbox > div > .brush.pencil::before {
+    content: '';
+    position: absolute;
+    background-color: #ffd930;
+    width: 20px; height: 10px;
+    top: 5px;
+    box-shadow:
+        #bea11f 0 10px,
+        #ffe5c3 5px 0,
+        #e2c092 5px 10px;
+}
+
+.papercanvas-canvas > .brushesbox > div > .brush.pencil-eraser::before {
+    content: '';
+    position: absolute;
+    background-color: #ffd930;
+    width: 20px; height: 10px;
+    top: 5px;
+    box-shadow: #bea11f 0 10px;
+}
+.papercanvas-canvas > .brushesbox > div > .brush.pencil-eraser::after {
+    content: '';
+    position: absolute;
+    background-color: #e75757;
+    width: 20px; height: 20px;
+    left: 25px; top: 5px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: #3f3f3f -10px 0;
+}

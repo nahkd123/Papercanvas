@@ -1,0 +1,1 @@
+declare type BaseCanvasRenderingContext2D = CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D;
